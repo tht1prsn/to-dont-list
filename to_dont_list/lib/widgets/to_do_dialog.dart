@@ -55,7 +55,7 @@ class _ToDoDialogState extends State<ToDoDialog> {
           valueListenable: _inputController,
           builder: (context, value, child) {
             return ElevatedButton(
-              key: const Key("OkButton"),
+              key: const Key("OKButton"),
               style: yesStyle,
               onPressed: value.text.isNotEmpty
                   ? () {
